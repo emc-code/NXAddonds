@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Crayfish.NXOpen.110" Version="11.0.0.37" />
+    <PackageReference Include="Crayfish.NXOpen.UF.110" Version="11.0.0.36" />
+  </ItemGroup>
+
+</Project>
